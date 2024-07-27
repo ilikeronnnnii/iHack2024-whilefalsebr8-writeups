@@ -17,3 +17,5 @@ choosing My Account menu will create a new GET request to profile.php page with 
 therefore, changing the userId parameter values leads to a different webpage thus conclude that this webpage is vulnerable to IDOR Attack. To obtain the flag just snipe it using burp suite, the flag is at parameter value of `userId=53`
 
 ![Pasted image 20240727213304](https://github.com/user-attachments/assets/281ecd36-6676-4acc-836a-0f446dfc4ecb)
+
+flag `ihack24{655b7b7ae4c62d726a568eff8914573e}`
