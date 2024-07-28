@@ -72,7 +72,8 @@ key = KDF(KEYs,Key_X)
 IV = KDF(IVs,IV_X)
 ```
 
-Since it takes some time to calculate i took the liberty to use powerful online calculation tool.. Desmos and Wolfram alpha.
+Since it takes some time to calculate i took the liberty to use powerful online calculation tool.. Desmos and Wolfram alpha. 
+I could've use Memoization for the fibonacchi function and simplify all the other functions(maybe) but using those platform are much faster.
 Here is a revised function that returns the value i got from those platforms with reference. Below is the full code
 
 ```py
