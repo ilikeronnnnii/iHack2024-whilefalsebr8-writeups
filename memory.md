@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/43d9f836-ae9a-41db-aa98-5a426596474a)this challenge you required to do memory dump analysis, therefore you need to use software like Volatility or Memprocfs
+this challenge you required to do memory dump analysis, therefore you need to use software like Volatility or Memprocfs
 
 ![image](https://github.com/user-attachments/assets/5ee3aa9b-0007-4cdd-80ca-d3d9dd1a7fa4)
 
