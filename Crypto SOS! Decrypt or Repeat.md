@@ -41,7 +41,7 @@ IV_X = [-100, 100]
 
 ### Note of Effort :
 <p align=justify>
- Before the X values were released, i tried to bruteforce it, since there is 4 keys that is appended with .7f, len(key)= 8\*4=32 , with 8 unit length for all 4 parts, same goes for IV, 2 parts with 8 unit length, len(IV)=8\*2. Given the constraint f(x)<10 && f(x)>-10 , we can find a range of x that could work by plotting it in desmos.. It helps reducing SOME Xs range that need to be calculated, 
+ Before the X values were released, i tried to bruteforce it, since there is 4 keys that is appended with .7f, len(key)= 8*4=32 , with 8 unit length for all 4 parts, same goes for IV, 2 parts with 8 unit length, len(IV)=8*2. Given the constraint f(x)<10 && f(x)>-10 , we can find a range of x that could work by plotting it in desmos.. It helps reducing SOME Xs range that need to be calculated, 
 </p>
 
 The example below for IV 1st function, 
