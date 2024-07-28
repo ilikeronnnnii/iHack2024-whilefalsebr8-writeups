@@ -10,6 +10,7 @@ So, in this challenge we were given multiple files, I just opened the applicatio
 ![image](https://github.com/user-attachments/assets/e26843d3-b384-43ce-9229-b9d134d411c6) 
 
 `ValidateLicensekey:`
+
 ![image](https://github.com/user-attachments/assets/6e2ea4e6-5ce5-40e0-b514-940c1aea0c14)
 
 
