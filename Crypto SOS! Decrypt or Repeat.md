@@ -40,7 +40,9 @@ IV_X = [-100, 100]
 ```
 
 ### Note of Effort :
+<p align=justify>
  Before the X values were released, i tried to bruteforce it, since there is 4 keys that is appended with .7f, len(key)= 8\*4=32 , with 8 unit length for all 4 parts, same goes for IV, 2 parts with 8 unit length, len(IV)=8\*2. Given the constraint f(x)<10 && f(x)>-10 , we can find a range of x that could work by plotting it in desmos.. It helps reducing SOME Xs range that need to be calculated, 
+</p>
 
 The example below for IV 1st function, 
  
@@ -54,9 +56,10 @@ $$
 \lim_{{x \to -\infty}} \frac{e^x + e^{\frac{1}{2}}}{55} ≈ 0.0299768
 $$
 
+<p align=justify>
 This is great since we can stop iterating for X when f(x) reaches this value. Alternatively we can iterate X until it gave the same approximation for 7 float points.
 There is probably a better way to guess the X ranges for each function but this is the best I could come up with, before the hints were released lol. 
-
+</p>
 
 # Compute
 
@@ -72,9 +75,11 @@ key = KDF(KEYs,Key_X)
 IV = KDF(IVs,IV_X)
 ```
 
+<p align=justify>
 Since it takes some time to calculate i took the liberty to use powerful online calculation tool.. Desmos and Wolfram alpha. 
 I could've use Memoization for the fibonacchi function and simplify all the other functions(maybe) but using those platform are much faster.
-Here is a revised function that returns the value i got from those platforms with reference. Below is the full code
+Here is a revised function that returns the value i got from those platforms with reference. Below is the full code in python
+</p>
 
 ```py
 import math
