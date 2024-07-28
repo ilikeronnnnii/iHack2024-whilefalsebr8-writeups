@@ -10,4 +10,4 @@ I saw the logs and the ip address `149.102.244.68` was getting handled by invali
 
 ![image](https://github.com/user-attachments/assets/3ef65fda-8d1d-4bcf-a2a7-759e9b28b895)
  
-This log seems interesting as right after the authentication was failed, the connection was closed the user `sysadmin`, so the flag  is `ihack24{149.102.244.68_ sysadmin}`
+This log seems interesting as right after the authentication was failed, the connection was closed by the user `sysadmin`, so the flag  is `ihack24{149.102.244.68_ sysadmin}`
