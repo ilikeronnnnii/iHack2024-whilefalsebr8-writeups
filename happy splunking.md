@@ -25,7 +25,7 @@ from the first question here is what we need to focus on:-
 - Timestamp 23rd July
 - find victim user account and its ip
 
-referring to this ![cheatsheet](https://www.socinvestigation.com/windows-rdp-event-ids-cheatsheet/) I found, you failed attempt to login is apart of EventCode `4625` is related rdp failure logon status
+referring to this cheatsheet (https://www.socinvestigation.com/windows-rdp-event-ids-cheatsheet/) that I found, you failed attempt to login is apart of EventCode `4625` is related rdp failure logon status
 
 therefore in the query presets change to last 7 days, filter EventCode `4625` and scroll all the way to 23rd July
 
