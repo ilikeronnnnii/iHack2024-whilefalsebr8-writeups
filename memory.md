@@ -6,7 +6,7 @@ analysing it using memprocfs `memprocfs.exe -device C:\Users\aan\Downloads\memor
 
 ![image](https://github.com/user-attachments/assets/d721002c-cbce-4de1-8325-f35806bbf9ce)
 
-based from the question itself we were required to find out the created user account and its password, therefore this kind info can be located at forensic/csv/process.csv file, to analyze it even easier you can use spreadsheet software like TimeLineExplorer
+based from the question itself we were required to find out the created user account and its password command, therefore this kind info can be located at forensic/csv/process.csv file, to analyze it even easier you can use spreadsheet software like TimeLineExplorer
 
 ![image](https://github.com/user-attachments/assets/e0c3d587-82cd-4eda-a44a-758990afef9a)
 
