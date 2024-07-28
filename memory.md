@@ -8,7 +8,7 @@ analysing it using memprocfs `memprocfs.exe -device C:\Users\aan\Downloads\memor
 
 based from the question itself we were required to find out the created user account and its password, therefore this kind info can be located at forensic/csv/process.csv file, to analyze it even easier you can use spreadsheet software like TimeLineExplorer
 
-![image](https://github.com/user-attachments/assets/cf0db34c-be69-4d78-b4d9-6d1c03a4a8d7)
+![image](https://github.com/user-attachments/assets/e0c3d587-82cd-4eda-a44a-758990afef9a)
 
 as you can see, there is a strange powershell base64 encoded command executed
 
